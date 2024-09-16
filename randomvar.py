@@ -1,7 +1,17 @@
 import random
 import string
 
-banner = """
+
+def generate_random_variable_name(variable):
+    variable = variable.upper()
+    new_variable = ""
+    for char in variable:
+        new_variable += char + random.choice(string.ascii_lowercase)
+    return new_variable
+
+def main():
+    while True:
+     banner = """
  .:..                      ..:               
               .%@@*.                  .+@@@.              
               -@%##@=.               -@%*%@=              
@@ -35,15 +45,6 @@ banner = """
                             ..                         
 """
 
-def generate_random_variable_name(variable):
-    variable = variable.upper()
-    new_variable = ""
-    for char in variable:
-        new_variable += char + random.choice(string.ascii_lowercase)
-    return new_variable
-
-def main():
-    while True:
         user_input = input("Insert the variable (type 'exit' to close): ")
         if user_input.lower() == 'exit':
             print("Exiting the program.")
