@@ -7,7 +7,7 @@ You want create a random variable, but you also need to read your code for futur
 
 ### example
 1. your original variable is 'myname', therefore the system will turn your lowercase letter variable to uppercase letter -> 'MYNAME'
-2. after that, it will append random char in each of your original variable. -> '**M**w**Y**o**N**i**A**q**M**x**E**'
+2. after that, it will append random lowecase ascii string char in each of your original variable. -> '**M**w**Y**o**N**i**A**q**M**x**E**'
 3. you can read your original variable by look at uppercase letter in a new variable.
 
 ## Installation
