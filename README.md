@@ -1,6 +1,6 @@
 # PR01-RanVar
 
-Append new random of each ASCII char to each letter of variable you want to create. useful for payload, malware scripting to avoid being detected by antivirus/blue team security analyst to read your code.
+Append new random of each ASCII char to each letter of variable you want to create. useful for payload, malware scripting to avoid being detected by antivirus/blue team security analyst hard to read your code.
 
 ## POC
 You want create a random variable, but you also need to read your code for future update. I come up with the idea that you able to read your original variable even though it got mixed up with random string by read the CAPS letter. for an example:
