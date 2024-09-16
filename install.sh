@@ -19,8 +19,8 @@ echo [+] Completed
 
 # set up alias workflow--------------------------------
 echo [*] Setting up alias...
-echo "alias ranvar=\"python3 $(pwd)/main.py\"" >> ~/.bashrc
-echo "alias ranvar=\"python3 $(pwd)/main.py\"" >> ~/.zshrc
+echo "alias ranvar=\"python3 $(pwd)/randomvar.py\"" >> ~/.bashrc
+echo "alias ranvar=\"python3 $(pwd)/randomvar.py\"" >> ~/.zshrc
 echo [+] Completed
 
 # clean up---------------------------------------------
