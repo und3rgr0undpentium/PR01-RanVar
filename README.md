@@ -1,4 +1,4 @@
-# AppendRandomCharVariable_V1
+# PR01-RanVar
 
 Append new random each ASCII char to each letter of variable
 
