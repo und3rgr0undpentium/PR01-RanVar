@@ -1,6 +1,6 @@
 # PR01-RanVar
 
-Append new random of each ASCII char to each letter of variable
+Append new random of each ASCII char to each letter of variable you want to create. useful for payload, malware scripting to avoid being detected by antivirus system.
 
 ## Installation
 
