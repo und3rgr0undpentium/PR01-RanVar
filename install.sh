@@ -1,6 +1,6 @@
 #!/bin/bash
 # installer for RANDOMCHARVARIABLE
-# created by : lakey
+# modified by : lakey
 
 # staging--------------------------------------------
 echo [*] Staging process...
