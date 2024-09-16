@@ -1,6 +1,6 @@
 # PR01-RanVar
 
-Append new random each ASCII char to each letter of variable
+Append new random of each ASCII char to each letter of variable
 
 ## Installation
 
